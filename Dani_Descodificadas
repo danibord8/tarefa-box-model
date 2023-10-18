@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/flor.ico" type="image/x-icon">
+    <style>
+        div {
+            height: 400px;
+            width: 400px;
+            border-width: 20px;
+            border-style: dotted;
+            border-color: rgb(0, 255, 221);
+            border-radius: 50%;
 
+            background-image: url(https://c.pxhere.com/photos/30/66/sun_flower_macro_beautiful_colors_colorful_flora_summer_plant_flower-549276.jpg!d);
+    box-shadow: inset 26px 6px 23px 33px;
+    background-size: cover;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    outline-width: 20px;
+    outline-style: dashed;
+    outline-color: rgb(233, 16, 52);
+
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+p {
+
+        padding-top: 150px;
+        font-style: italic;
+        color: rgb(215, 204, 204);
+        font-weight: bolder;
+        font-size: 60px;
+
+
+
+    }
+
+    </style>
 </head>
 <body>
 
